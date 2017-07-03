@@ -1,10 +1,10 @@
-import { MyFirstAngular2ProjectPage } from './app.po';
+import { DateInputsTestPage } from './app.po';
 
 describe('my-first-angular2-project App', () => {
-  let page: MyFirstAngular2ProjectPage;
+  let page: DateInputsTestPage;
 
   beforeEach(() => {
-    page = new MyFirstAngular2ProjectPage();
+    page = new DateInputsTestPage();
   });
 
   it('should display message saying app works', () => {
